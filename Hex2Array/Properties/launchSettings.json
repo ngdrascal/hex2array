@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Hex2Header": {
+      "commandName": "Project",
+      "commandLineArgs": "-fh D:\\repos\\6502BcdResults\\asm6502\\CalcAllADC_SBC.hex"
+    }
+  }
+}
