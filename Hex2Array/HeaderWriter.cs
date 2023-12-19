@@ -30,7 +30,6 @@ namespace Hex2Array
 
         private string ByteToHex(byte value)
         {
-            // return value <= 0x0F ? $"0x0{value,1:X}" : $"0x{value,2:X}";
             return $"0x{value:X2}";
         }
 
@@ -38,11 +37,6 @@ namespace Hex2Array
         {
             var hexStr = value.ToString("X4");
             return $"{hexStr[..3]}x";
-            // return
-            //     value <= 0x000F ? $"000{value,1:X}" :
-            //     value <= 0x00FF ? $"00{value,2:X}" :
-            //     value <= 0x0FFF ? $"0{value,3:X}" :
-            //     $"{value,4:X}";
         }
     }
 }
