@@ -38,7 +38,7 @@ namespace Hex2Array
 
         private static void PrintHelp()
         {
-            Console.WriteLine("hex2header -f<input-format> <input-file>");
+            Console.WriteLine("hex2array -f<input-format> <input-file>");
             Console.WriteLine("   -f[h|b]     input format: 'h' for hex, 'b' for binary");
             Console.WriteLine("   input-file  path and filename of input file");
             Console.WriteLine("   -h          print this help");
